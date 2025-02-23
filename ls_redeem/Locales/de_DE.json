@@ -1,0 +1,37 @@
+{
+  "RedeemEmbed": {
+    "author": "LS Service",
+    "authorUrl": "https://media.discordapp.net/attachments/1000861003522772992/1199420118803943505/LogoBG_Neu.png?ex=65d4ef08&is=65c27a08&hm=187237a51a80010ceef23437c46af7a56bb55124af9274f2092e455b5b2a0a0e&=&format=webp&quality=lossless&width=702&height=702",
+    "title": "Einlösesystem",
+    "description": "Hier ist Ihr Einlösecode: \n```%code%```",
+    "image": "https://media.discordapp.net/attachments/1074042906198937682/1133540467926118500/Banner_Redeem.png",
+    "thumbnail": "",
+    "color": "0000FF",
+    "footer": "ls_redeem",
+    "footerUrl": "https://media.discordapp.net/attachments/1000861003522772992/1199420118803943505/LogoBG_Neu.png?ex=65d4ef08&is=65c27a08&hm=187237a51a80010ceef23437c46af7a56bb55124af9274f2092e455b5b2a0a0e&=&format=webp&quality=lossless&width=702&height=702"
+  },
+
+  "AvailableCodesEmbed": {
+    "author": "LS Service",
+    "authorUrl": "https://media.discordapp.net/attachments/1000861003522772992/1199420118803943505/LogoBG_Neu.png?ex=65d4ef08&is=65c27a08&hm=187237a51a80010ceef23437c46af7a56bb55124af9274f2092e455b5b2a0a0e&=&format=webp&quality=lossless&width=702&height=702",
+    "title": "Verfügbare Codes",
+    "description": "Hier ist die Liste aller verfügbaren Codes",
+    "image": "https://media.discordapp.net/attachments/1074042906198937682/1133540467926118500/Banner_Redeem.png",
+    "thumbnail": "",
+    "color": "0000FF",
+    "footer": "ls_redeem",
+    "footerUrl": "https://media.discordapp.net/attachments/1000861003522772992/1199420118803943505/LogoBG_Neu.png?ex=65d4ef08&is=65c27a08&hm=187237a51a80010ceef23437c46af7a56bb55124af9274f2092e455b5b2a0a0e&=&format=webp&quality=lossless&width=702&height=702"
+  },
+
+  "DeleteCode": {
+    "Modal": {
+      "Title": "Code löschen",
+      "Label": "Geben Sie den zu löschenden Code ein"
+    },
+
+    "Text": {
+      "description1": "Der Code `%code%` wurde erfolgreich gelöscht.",
+      "description2": "Der Code `%code%` existiert nicht."
+    }
+  }
+}

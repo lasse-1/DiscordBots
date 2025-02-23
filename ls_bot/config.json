@@ -1,0 +1,186 @@
+{
+  "token": "MTEwODQ0MTA2NzIxMDE2NjMxMw.GJ42Zw.g8EeUSCGw_K1k-ndBKGUJf8ohg051Is3xGWylk",
+  "language": "de_DE",
+
+  "Activity": {
+    "Activity": true,
+    "Type": "%playing%",
+    "Name": "new update"
+  },
+
+  "ServerStats": {
+    "MemberCount": {
+      "ChannelId": "1235893514999562250",
+      "Name": "Member: %count%"
+    },
+
+    "CustomStats": [
+      {
+        "ChannelId": "1235894633922564126",
+        "RoleId": "1043989494094905385",
+        "Name": "%count%: Bots"
+      }
+    ]
+  },
+  "WelcomeSystem": {
+    "ChannelId": "1119006060519362750",
+    "AddRoleId": ""
+  },
+  "LeaveSystem": {
+    "ChannelId": "1119006060519362750"
+  },
+
+  "VerifySystem": {
+    "Captcha": true,
+    "Role": "1107037127713231022",
+    "ChannelName": "Verify-",
+    "Category": "1106949409834545242"
+  },
+
+  "TicketSystem": {
+    "Advanced": true,
+
+    "TicketOptions": [
+      {
+        "value": "buy_ticket",
+        "label": "Buy",
+        "emoji": "🛒",
+        "description": "Klicke um ein Produkt zu erwerben.",
+        "ticketName": "buy-",
+        "categoryId": "1106949610993356832",
+        "OpenMessage": {
+          "author": "",
+          "authorUrl": "",
+          "title": "Hallo %username%",
+          "description": "Bitte beschreibe dein Anligen direkt nach eröffnung des Ticket das Team wird sich um dich kümmern.",
+          "image": "",
+          "thumbnail": "",
+          "color": "0000FF",
+          "footer": "",
+          "footerUrl": ""
+        }
+      },
+      {
+        "value": "support_ticket",
+        "label": "Support",
+        "emoji": "❔",
+        "description": "",
+        "ticketName": "support-",
+        "categoryId": "1106949610993356832",
+        "OpenMessage": {
+          "author": "",
+          "authorUrl": "",
+          "title": "Hallo %username%",
+          "description": "Bitte beschreibe dein Anligen direkt nach eröffnung des Ticket das Team wird sich um dich kümmern.",
+          "image": "",
+          "thumbnail": "",
+          "color": "0000FF",
+          "footer": "",
+          "footerUrl": ""
+        }
+      }
+    ],
+
+    "MoveOptions": [
+      {
+        "name": "Fertig",
+        "categoryId": "1106949705088376903",
+        "title": "Gute Neuigkeiten",
+        "description": "Lieber Kunde, deine Bestellung wurde fertiggestelt.\n\nGerne freuen wir uns über eine Positive Bewertung.",
+        "thumbnail": "",
+        "image": "",
+        "color": "0000FF"
+      }
+    ],
+
+    "ReviewSystem": {
+      "MoveOptionCategoryId": "1106949705088376903",
+      "ReviewChannelId": "1106949550377275454"
+    }
+  },
+
+  "Security": {
+    "BlacklistedLinks": {
+      "enabled": true,
+      "WhitelistedRoleIds": [""],
+      "WhitelistedChannels": [""],
+      "Links": ["discord.gg/", "discord.com/inviet/", "https://"],
+      "Punnishment": "%timeout%",
+      "TimeoutTime": "30m"
+    },
+    "BlacklistedWords": {
+      "enabled": true,
+      "WhitelistedRoleIds": [""],
+      "WhitelistedChannels": [""],
+      "Words": [
+        "nigger",
+        "n1gger",
+        "bastard",
+        "n1gger",
+        "n1ga",
+        "nigga",
+        "n1gga",
+        "nigg3r",
+        "nig3r",
+        "n199er",
+        "n1993r",
+        "Adolf",
+        "Hitler"
+      ],
+      "Punnishment": "",
+      "TimeoutTime": "30m"
+    }
+  },
+
+  "Suggestions": [
+    {
+      "channelId": "",
+      "reaction1": "✅",
+      "reaction2": "❌"
+    }
+  ],
+
+  "SupportChannel": {
+    "MoveChannel": "",
+    "ChannelName": "Support-",
+    "ChannelCategory": ""
+  },
+
+  "CustomCommands": [
+    {
+      "Command": "!payment",
+      "Permissions": ["1043989494094905388"],
+
+      "author": "",
+      "authorUrl": "",
+      "title": "Payment Methoden",
+      "description": "Paypal: ...",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    {
+      "command": "!info",
+      "permissions": [""],
+
+      "author": "",
+      "authorURL": "",
+      "title": "Information",
+      "description": "Your Description",
+      "thumbnail": "",
+      "image": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerURL": ""
+    }
+  ],
+
+  "Logs": {
+    "Transcripts": "1106949550377275454",
+    "TicketCreated": "1106949550377275454",
+    "TicketDeleted": "1106949550377275454",
+    "Verify": ""
+  }
+}

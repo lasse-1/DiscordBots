@@ -1,0 +1,78 @@
+{
+  "token": "MTEwODQ0MTA2NzIxMDE2NjMxMw.GJ42Zw.g8EeUSCGw_K1k-ndBKGUJf8ohg051Is3xGWylk",
+  "language": "de_DE",
+
+  "Activity": {
+    "Activity": true,
+    "Type": "%playing%",
+    "Name": "Ticket System"
+  },
+
+  "TicketSystem": {
+    "Advanced": true,
+
+    "TicketOptions": [
+      {
+        "value": "buy_ticket",
+        "label": "Buy",
+        "emoji": "🛒",
+        "description": "Klicke um ein Produkt zu erwerben.",
+        "ticketName": "buy-",
+        "categoryId": "",
+        "OpenMessage": {
+          "author": "",
+          "authorUrl": "",
+          "title": "Hallo %username%",
+          "description": "Bitte beschreibe dein Anligen direkt nach eröffnung des Ticket das Team wird sich um dich kümmern.",
+          "image": "",
+          "thumbnail": "",
+          "color": "0000FF",
+          "footer": "",
+          "footerUrl": ""
+        }
+      },
+      {
+        "value": "support_ticket",
+        "label": "Support",
+        "emoji": "❔",
+        "description": "",
+        "ticketName": "support-",
+        "categoryId": "",
+        "OpenMessage": {
+          "author": "",
+          "authorUrl": "",
+          "title": "Hallo %username%",
+          "description": "Bitte beschreibe dein Anligen direkt nach eröffnung des Ticket das Team wird sich um dich kümmern.",
+          "image": "",
+          "thumbnail": "",
+          "color": "0000FF",
+          "footer": "",
+          "footerUrl": ""
+        }
+      }
+    ],
+
+    "MoveOptions": [
+      {
+        "name": "Fertig",
+        "categoryId": "555",
+        "title": "Gute Neuigkeiten",
+        "description": "Lieber Kunde, deine Bestellung wurde fertiggestelt.\n\nGerne freuen wir uns über eine Positive Bewertung.",
+        "thumbnail": "",
+        "image": "",
+        "color": "0000FF"
+      }
+    ],
+
+    "ReviewSystem": {
+      "MoveOptionCategoryId": "555",
+      "ReviewChannelId": ""
+    }
+  },
+
+  "Logs": {
+    "Transcripts": "",
+    "TicketCreated": "",
+    "TicketDeleted": ""
+  }
+}

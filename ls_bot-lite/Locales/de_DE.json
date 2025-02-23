@@ -1,0 +1,114 @@
+{
+  "WelcomeMessage": {
+    "author": "",
+    "authorUrl": "",
+    "title": "Wilkommen",
+    "description": "Hey %username%, \n Bei Fragen oder Problemen, öffne geren ein Ticket.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "LeaveMessage": {
+    "author": "",
+    "authorUrl": "",
+    "title": "Auf Widersehen",
+    "description": "%username% hat uns Verlassen.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "VerifySystem": {
+    "SetupMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Bitte Verifiziere dich!",
+      "description": "Drücke den Button um dich zu Verifizieren",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": "",
+
+      "ButtonLabel": "Verify",
+      "BottonEmoji": "✅"
+    },
+
+    "SuccessMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Verification Erfolgreich",
+      "description": "Du wurdest erfolgreich verifiziert.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "FailureMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Verification Fehlgeschlagen",
+      "description": "Du konntest nicht verifiziert werden.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "Messages": {
+      "TimeError": "Du hast nicht innerhalb der vorgegebenen Zeit geantwortet. Die Verifizierung wurde abgebrochen.",
+      "ChannelMessage": "Verifiziere dich im %channel% Kanal",
+      "DMMessage": "Verifiziere dich in deinen DMs",
+      "AlreadyVerified": "Du bist bereits verifiziert."
+    }
+  },
+
+  "TicketSystem": {
+    "SetupMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Erstelle ein Ticket",
+      "description": "Wähle unten die Category des Tickets welches du eröffnen willst.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "TicketActions": {
+      "description_1": "%target% wurde erfolgreich zum Ticket hinzugefügt",
+      "description_2": "%target% wurde erfolgreich zum Ticket hinzugefügt",
+      "description_3": "%user% hat das Ticket zu %newName% umbenant"
+    },
+    "Buttons": {
+      "CloseTicket": "Ticket Schließen",
+      "ReopenTicket": "Ticket Öffnen",
+      "Transcript": "Transkript",
+      "DeleteTicket": "Ticket Löschen"
+    }
+  },
+
+  "Clear": {
+    "description_1": "Es wurden keine Nachrichten vom Benutzer gefunden, die weniger als 14 Tage alt sind.",
+    "description_2": "Erfolgreich %size% Nachrichten von %target% gelöscht.",
+    "description_3": "Es wurden keine Nachrichten gefunden, die weniger als 14 Tage alt sind.",
+    "description_4": "Erfolgreich %size%  Nachrichten aus dem Kanal gelöscht."
+  },
+
+  "EmbedCreator": {
+    "UrlErrors": {
+      "Image": "Please enter an image Url",
+      "Thumbnail": "Please enter a thumbnail URL"
+    },
+    "EditEmbed": {
+      "SuccessMessage": "Das Embed wurde erfolgreich geändert.",
+      "ErrorMessage": "Das Embed konnte nicht geändert werden. Bitte beachte, dass die Nachricht, die du ändern möchtest, von mir stammt und es sich um ein Embed handelt."
+    }
+  }
+}

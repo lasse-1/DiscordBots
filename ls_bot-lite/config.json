@@ -1,0 +1,123 @@
+{
+  "token": "MTEwODQ0MTA2NzIxMDE2NjMxMw.GJ42Zw.g8EeUSCGw_K1k-ndBKGUJf8ohg051Is3xGWylk",
+  "language": "de_DE",
+
+  "GeneralEmbedColor": "0000FF",
+
+  "Activity": {
+    "Activity": true,
+    "type": "%playing%",
+    "name": "cp.ls-service.dev"
+  },
+
+  "ServerStats": {
+    "MemberCount": {
+      "channelId": "",
+      "name": "Member: %count%"
+    },
+
+    "CustomStats": [
+      {
+        "channelId": "",
+        "roleId": "",
+        "name": "%count%: z.B Bots"
+      }
+    ]
+  },
+
+  "WelcomeSystem": {
+    "ChannelId": "",
+    "AddRoleId": ""
+  },
+
+  "LeaveSystem": {
+    "ChannelId": ""
+  },
+
+  "VerifySystem": {
+    "Role": "1107037127713231022"
+  },
+
+  "TicketSystem": {
+    "Advanced": true,
+
+    "TicketOptions": [
+      {
+        "value": "buy_ticket",
+        "label": "Buy",
+        "emoji": "🛒",
+        "description": "Klicke um ein Produkt zu erwerben.",
+        "ticketName": "buy-",
+        "categoryId": "1106949610993356832",
+        "OpenMessage": {
+          "author": "",
+          "authorUrl": "",
+          "title": "Hallo %username%",
+          "description": "Bitte beschreibe dein Anligen direkt nach eröffnung des Ticket das Team wird sich um dich kümmern.",
+          "image": "",
+          "thumbnail": "",
+          "color": "0000FF",
+          "footer": "",
+          "footerUrl": ""
+        }
+      },
+      {
+        "value": "support_ticket",
+        "label": "Support",
+        "emoji": "❔",
+        "description": "",
+        "ticketName": "support-",
+        "categoryId": "1106949610993356832",
+        "OpenMessage": {
+          "author": "",
+          "authorUrl": "",
+          "title": "Hallo %username%",
+          "description": "Bitte beschreibe dein Anligen direkt nach eröffnung des Ticket das Team wird sich um dich kümmern.",
+          "image": "",
+          "thumbnail": "",
+          "color": "0000FF",
+          "footer": "",
+          "footerUrl": ""
+        }
+      }
+    ]
+  },
+
+  "CustomCommands": [
+    {
+      "Command": "!payment",
+      "Permissions": ["1043989494094905385"],
+
+      "author": "",
+      "authorUrl": "",
+      "title": "Payment Methoden",
+      "description": "Paypal: ...",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    {
+      "command": "!info",
+      "permissions": [""],
+
+      "author": "",
+      "authorURL": "",
+      "title": "Information",
+      "description": "Your Description",
+      "thumbnail": "",
+      "image": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerURL": ""
+    }
+  ],
+
+  "Logs": {
+    "Transcripts": "",
+    "TicketCreated": "",
+    "TicketDeleted": "",
+    "Verify": ""
+  }
+}

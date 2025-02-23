@@ -1,0 +1,158 @@
+{
+  "WelcomeMessage": {
+    "author": "Willkommen",
+    "authorUrl": "",
+    "title": "Willkommen",
+    "description": "Hallo %username%, willkommen auf unserem Server! Wenn du Fragen oder Probleme hast, öffne gerne ein Ticket.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "LeaveMessage": {
+    "author": "Abschied",
+    "authorUrl": "",
+    "title": "Auf Wiedersehen",
+    "description": "%username% hat den Server verlassen. Wir wünschen ihm alles Gute.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "FF0000",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "VerifySystem": {
+    "SetupMessage": {
+      "author": "Verifizierungssystem",
+      "authorUrl": "",
+      "title": "Bitte verifiziere dich",
+      "description": "Drücke den Button, um dich zu verifizieren.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": "",
+
+      "ButtonLabel": "Verifizieren",
+      "BottonEmoji": "✅"
+    },
+    "CapchaMessage": {
+      "author": "Verifizierungssystem",
+      "authorUrl": "",
+      "title": "Bitte verifiziere dich",
+      "description": "Drücke den Button und löse das CAPTCHA, um dich zu verifizieren.",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "Bitte schreibe die Lösung in diesen Chat.",
+      "footerUrl": ""
+    },
+    "SuccessMessage": {
+      "author": "Verifizierungssystem",
+      "authorUrl": "",
+      "title": "Verifizierung erfolgreich",
+      "description": "Du hast dich erfolgreich verifiziert. Willkommen im Server!",
+      "image": "",
+      "thumbnail": "",
+      "color": "00FF00",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "FailureMessage": {
+      "author": "Verifizierungssystem",
+      "authorUrl": "",
+      "title": "Verifizierung fehlgeschlagen",
+      "description": "Die Verifizierung war nicht erfolgreich. Bitte versuche es erneut oder kontaktiere den Support.",
+      "image": "",
+      "thumbnail": "",
+      "color": "FF0000",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "Messages": {
+      "TimeError": "Du hast nicht innerhalb der vorgegebenen Zeit geantwortet. Die Verifizierung wurde abgebrochen.",
+      "ChannelMessage": "Bitte verifiziere dich im Kanal %channel%.",
+      "DMMessage": "Bitte verifiziere dich in deinen Direktnachrichten.",
+      "AlreadyVerified": "Du bist bereits verifiziert."
+    }
+  },
+
+  "TicketSystem": {
+    "SetupMessage": {
+      "author": "Ticket-System",
+      "authorUrl": "",
+      "title": "Erstelle ein Ticket",
+      "description": "Wähle unten die Kategorie des Tickets, das du eröffnen möchtest.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+
+    "TicketActions": {
+      "description_1": "%target% wurde erfolgreich zum Ticket hinzugefügt.",
+      "description_2": "%target% wurde erfolgreich aus dem Ticket entfernt.",
+      "description_3": "%user% hat das Ticket in %newName% umbenannt."
+    },
+    "Buttons": {
+      "CloseTicket": "Ticket schließen",
+      "ReopenTicket": "Ticket erneut öffnen",
+      "Transcript": "Transkript erstellen",
+      "DeleteTicket": "Ticket löschen"
+    },
+
+    "Review": {
+      "Placeholder": "Wähle deine Bewertung.",
+      "NoReviewMessage": "Es wurde keine Bewertung abgegeben.",
+
+      "Modal": {
+        "Title": "Ticket-Bewertung",
+        "Label": "Deine Bewertung"
+      },
+      "Embed": {
+        "InfoTitle": "Ticket-Informationen",
+        "InfoDescription": "> Ticketersteller: %user%\n> Nachrichtenanzahl: **%messageCount%**",
+        "ReviewTitle": "Bewertung des Tickets",
+        "ReviewDescription": "> Bewertung: %rating%\n> Kommentar: %ratingText%",
+
+        "author": "",
+        "authorUrl": "",
+        "title": "Ticket-Bewertung",
+        "description": "",
+        "image": "",
+        "color": "0000FF"
+      }
+    }
+  },
+
+  "Clear": {
+    "description_1": "Es wurden keine Nachrichten des Benutzers gefunden, die weniger als 14 Tage alt sind.",
+    "description_2": "Erfolgreich %size% Nachrichten von %target% gelöscht.",
+    "description_3": "Es wurden keine Nachrichten gefunden, die weniger als 14 Tage alt sind.",
+    "description_4": "Erfolgreich %size% Nachrichten aus dem Kanal gelöscht."
+  },
+
+  "SuggestionMessage": {
+    "author": "Vorschläge",
+    "authorUrl": "",
+    "title": "Vorschlag von %username%",
+    "image": "",
+    "thumbnail": "",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "EmbedCreator": {
+    "UrlErrors": {
+      "Image": "Bitte gib eine Bild-URL ein.",
+      "Thumbnail": "Bitte gib eine Thumbnail-URL ein."
+    },
+    "EditEmbed": {
+      "SuccessMessage": "Das Embed wurde erfolgreich geändert.",
+      "ErrorMessage": "Das Embed konnte nicht geändert werden. Bitte stelle sicher, dass die Nachricht, die du ändern möchtest, von mir stammt und es sich um ein Embed handelt."
+    }
+  }
+}

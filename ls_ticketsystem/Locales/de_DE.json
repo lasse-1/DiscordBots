@@ -1,0 +1,50 @@
+{
+  "TicketSystem": {
+    "SetupMessage": {
+      "author": "Ticket-System",
+      "authorUrl": "",
+      "title": "Erstelle ein Ticket",
+      "description": "Wähle unten die Kategorie des Tickets, das du eröffnen möchtest.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+
+    "TicketActions": {
+      "description_1": "%target% wurde erfolgreich zum Ticket hinzugefügt.",
+      "description_2": "%target% wurde erfolgreich aus dem Ticket entfernt.",
+      "description_3": "%user% hat das Ticket in %newName% umbenannt."
+    },
+    "Buttons": {
+      "CloseTicket": "Ticket schließen",
+      "ReopenTicket": "Ticket erneut öffnen",
+      "Transcript": "Transkript erstellen",
+      "DeleteTicket": "Ticket löschen"
+    },
+
+    "Review": {
+      "Placeholder": "Wähle deine Bewertung.",
+      "NoReviewMessage": "Es wurde keine Bewertung abgegeben.",
+
+      "Modal": {
+        "Title": "Ticket-Bewertung",
+        "Label": "Deine Bewertung"
+      },
+      "Embed": {
+        "InfoTitle": "Ticket-Informationen",
+        "InfoDescription": "> Ticketersteller: %user%\n> Nachrichtenanzahl: **%messageCount%**",
+        "ReviewTitle": "Bewertung des Tickets",
+        "ReviewDescription": "> Bewertung: %rating%\n> Kommentar: %ratingText%",
+
+        "author": "",
+        "authorUrl": "",
+        "title": "Ticket-Bewertung",
+        "description": "",
+        "image": "",
+        "color": "0000FF"
+      }
+    }
+  }
+}

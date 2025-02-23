@@ -1,0 +1,158 @@
+{
+  "WelcomeMessage": {
+    "author": "Welcome",
+    "authorUrl": "",
+    "title": "Welcome",
+    "description": "Hello %username%, welcome to our server! If you have any questions or issues, feel free to open a ticket.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "LeaveMessage": {
+    "author": "Goodbye",
+    "authorUrl": "",
+    "title": "Goodbye",
+    "description": "%username% has left the server. We wish them all the best.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "FF0000",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "VerifySystem": {
+    "SetupMessage": {
+      "author": "Verification System",
+      "authorUrl": "",
+      "title": "Please Verify Yourself",
+      "description": "Press the button to verify yourself.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": "",
+
+      "ButtonLabel": "Verify",
+      "BottonEmoji": "✅"
+    },
+    "CapchaMessage": {
+      "author": "Verification System",
+      "authorUrl": "",
+      "title": "Please Verify Yourself",
+      "description": "Press the button and solve the CAPTCHA to verify yourself.",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "Please enter the solution in this chat.",
+      "footerUrl": ""
+    },
+    "SuccessMessage": {
+      "author": "Verification System",
+      "authorUrl": "",
+      "title": "Verification Successful",
+      "description": "You have successfully verified yourself. Welcome to the server!",
+      "image": "",
+      "thumbnail": "",
+      "color": "00FF00",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "FailureMessage": {
+      "author": "Verification System",
+      "authorUrl": "",
+      "title": "Verification Failed",
+      "description": "Verification failed. Please try again or contact support.",
+      "image": "",
+      "thumbnail": "",
+      "color": "FF0000",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "Messages": {
+      "TimeError": "You didn't respond within the allotted time. Verification has been canceled.",
+      "ChannelMessage": "Please verify yourself in the %channel% channel.",
+      "DMMessage": "Please verify yourself in your Direct Messages.",
+      "AlreadyVerified": "You are already verified."
+    }
+  },
+
+  "TicketSystem": {
+    "SetupMessage": {
+      "author": "Ticket System",
+      "authorUrl": "",
+      "title": "Create a Ticket",
+      "description": "Select the category below for the ticket you wish to open.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+
+    "TicketActions": {
+      "description_1": "%target% has been successfully added to the ticket.",
+      "description_2": "%target% has been successfully removed from the ticket.",
+      "description_3": "%user% renamed the ticket to %newName%."
+    },
+    "Buttons": {
+      "CloseTicket": "Close Ticket",
+      "ReopenTicket": "Reopen Ticket",
+      "Transcript": "Create Transcript",
+      "DeleteTicket": "Delete Ticket"
+    },
+
+    "Review": {
+      "Placeholder": "Select your rating.",
+      "NoReviewMessage": "No rating was submitted.",
+
+      "Modal": {
+        "Title": "Ticket Review",
+        "Label": "Your rating"
+      },
+      "Embed": {
+        "InfoTitle": "Ticket Information",
+        "InfoDescription": "> Ticket Creator: %user%\n> Message Count: **%messageCount%**",
+        "ReviewTitle": "Ticket Review",
+        "ReviewDescription": "> Rating: %rating%\n> Comments: %ratingText%",
+
+        "author": "",
+        "authorUrl": "",
+        "title": "Ticket Review",
+        "description": "",
+        "image": "",
+        "color": "0000FF"
+      }
+    }
+  },
+
+  "Clear": {
+    "description_1": "No messages from the user were found that are less than 14 days old.",
+    "description_2": "Successfully deleted %size% messages from %target%.",
+    "description_3": "No messages were found that are less than 14 days old.",
+    "description_4": "Successfully deleted %size% messages from the channel."
+  },
+
+  "SuggestionMessage": {
+    "author": "Suggestions",
+    "authorUrl": "",
+    "title": "Suggestion from %username%",
+    "image": "",
+    "thumbnail": "",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "EmbedCreator": {
+    "UrlErrors": {
+      "Image": "Please enter an image URL.",
+      "Thumbnail": "Please enter a thumbnail URL."
+    },
+    "EditEmbed": {
+      "SuccessMessage": "The embed was successfully changed.",
+      "ErrorMessage": "The embed could not be changed. Please ensure that the message you are trying to edit is from me and is an embed."
+    }
+  }
+}

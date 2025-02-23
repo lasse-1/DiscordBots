@@ -1,0 +1,21 @@
+{
+  "token": "MTEyMzU2ODE2NjI3NTEzMzU1MA.GFh0c-.wH8mHNIi2jfHYef86P6Jvd4M4afiDvOYYCgQTY",
+  "language": "de_DE",
+
+  "MySQL": {
+    "Host": "localhost",
+    "User": "root",
+    "Password": "",
+    "Database": "esxlegacy_a3f6c6"
+  },
+
+  "CodeSettings": {
+    "Possibilities": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  },
+
+  "MoneyNames": {
+    "Cash": "money",
+    "BankMoney": "bank",
+    "BlackMoney": "black_money"
+  }
+}

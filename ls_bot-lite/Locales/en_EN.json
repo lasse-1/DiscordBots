@@ -1,0 +1,114 @@
+{
+  "WelcomeMessage": {
+    "author": "",
+    "authorUrl": "",
+    "title": "Welcome",
+    "description": "Hey %username%, \n If you have any questions or issues, feel free to open a ticket.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "LeaveMessage": {
+    "author": "",
+    "authorUrl": "",
+    "title": "Goodbye",
+    "description": "%username% has left us.",
+    "image": "",
+    "thumbnail": "%userAvatar%",
+    "color": "0000FF",
+    "footer": "",
+    "footerUrl": ""
+  },
+
+  "VerifySystem": {
+    "SetupMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Please Verify Yourself!",
+      "description": "Press the button to verify yourself.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": "",
+
+      "ButtonLabel": "Verify",
+      "BottonEmoji": "✅"
+    },
+
+    "SuccessMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Verification Successful",
+      "description": "You have been successfully verified.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "FailureMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Verification Failed",
+      "description": "You could not be verified.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "Messages": {
+      "TimeError": "You did not respond within the specified time. Verification has been canceled.",
+      "ChannelMessage": "Verify yourself in the %channel% channel.",
+      "DMMessage": "Verify yourself in your DMs.",
+      "AlreadyVerified": "You are already verified."
+    }
+  },
+
+  "TicketSystem": {
+    "SetupMessage": {
+      "author": "",
+      "authorUrl": "",
+      "title": "Create a Ticket",
+      "description": "Select the category of the ticket you want to open below.",
+      "image": "",
+      "thumbnail": "",
+      "color": "0000FF",
+      "footer": "",
+      "footerUrl": ""
+    },
+    "TicketActions": {
+      "description_1": "%target% has been successfully added to the ticket.",
+      "description_2": "%target% has been successfully added to the ticket.",
+      "description_3": "%user% has renamed the ticket to %newName%."
+    },
+    "Buttons": {
+      "CloseTicket": "Close Ticket",
+      "ReopenTicket": "Reopen Ticket",
+      "Transcript": "Transcript",
+      "DeleteTicket": "Delete Ticket"
+    }
+  },
+
+  "Clear": {
+    "description_1": "No messages from the user were found that are less than 14 days old.",
+    "description_2": "Successfully deleted %size% messages from %target%.",
+    "description_3": "No messages were found that are less than 14 days old.",
+    "description_4": "Successfully deleted %size% messages from the channel."
+  },
+
+  "EmbedCreator": {
+    "UrlErrors": {
+      "Image": "Please enter an image URL.",
+      "Thumbnail": "Please enter a thumbnail URL."
+    },
+    "EditEmbed": {
+      "SuccessMessage": "The embed has been successfully changed.",
+      "ErrorMessage": "The embed could not be changed. Please note that the message you are trying to change is from me, and it is an embed."
+    }
+  }
+}
